@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TELEGRAM_TOKEN=$(cat "$TOKEN")
-CHAT_ID1=$(cat "CHAT_ID")
+CHAT_ID1=$(cat "$CHAT_ID")
 
 cd /home/flaskuser/site
 
